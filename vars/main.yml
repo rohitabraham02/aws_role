@@ -1,0 +1,12 @@
+    vpc_title: 'ansible'
+    vpc_name: "{{ vpc_title }} VPC"
+    igw_name: "{{ vpc_title }} IGW"
+    subnet_name_1: "{{ vpc_title }} Subnet"
+    subnet_name_2: "{{ vpc_title }} Subnet"
+    acl_name: "{{ vpc_title }} ACL"
+    route_table_name: "{{ vpc_title }} route table"
+    vpcCidrBlock: '10.0.0.0/16'
+    destinationCidrBlock: '0.0.0.0/0'
+    subNetCidrBlock_1: '10.0.1.0/24'
+    subNetCidrBlock_2: '10.0.2.0/24'
+    state : "present"
