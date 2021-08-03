@@ -10,3 +10,5 @@
     subNetCidrBlock_1: '10.0.1.0/24'
     subNetCidrBlock_2: '10.0.2.0/24'
     state : "present"
+    zone: 'us-east-1a'
+    region: 'us-east-1'
